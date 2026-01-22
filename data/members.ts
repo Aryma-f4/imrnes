@@ -38,10 +38,13 @@ export const members: Member[] = [
     contact: "bug@hunter.com",
   },
   {
-    name: "Yikzi",
-    bio: "Cicak Ungu",
-    github: "https://github.com",
-    personal_website: "https://localhost:3000",
+    name: "Yiksi",
+    bio: "CicakUngu, not Cicak Ungu",
+    github: "https://github.com/euxzy",
+    personal_website: "https://euxzy.dev",
+    contact: "yiksi@pengangguran.team",
+    optional_contact: "Discord: euxzy",
+    avatar_url: "yiksi.gif"
   },
   {
     name: "Yuza",
@@ -71,4 +74,3 @@ export const members: Member[] = [
   }
   
 ];
-
