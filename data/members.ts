@@ -55,11 +55,13 @@ export const members: Member[] = [
     github: "https://github.com",
     personal_website: "https://localhost:3000",
   },
-    {
-    name: "Rerru",
-    bio: "Copy, paste, hack, repeat",
-    github: "https://github.com",
-    personal_website: "https://localhost:3000",
+  {
+    name: "Rerruu",
+    bio: "ITS Trimoen aku 😭",
+    github: "https://github.com/ulelll",
+    contact: "aurellbukan@pengagguran.team",
+    optional_contact: "Fesnuk: Awrell Cujo",
+    avatar_url: "miooo.gif"
   },
   {
     name: "Mytheclipse",
