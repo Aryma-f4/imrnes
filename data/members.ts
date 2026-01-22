@@ -37,26 +37,32 @@ export const members: Member[] = [
     contact: "bug@hunter.com",
   },
   {
-    name: "nurpadila",
-    bio: "Copy, paste, hack, repeat",
+    name: "Yikzi",
+    bio: "Cicak Ungu",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
   },
   {
     name: "Yuza",
-    bio: "Copy, paste, hack, repeat",
+    bio: "Kapan CTFnya",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
   },
   {
-    name: "Ilham",
+    name: "Fd",
+    bio: "Kamu pake bruwstap ya?",
+    github: "https://github.com",
+    personal_website: "https://localhost:3000",
+  },
+    {
+    name: "Rerru",
     bio: "Copy, paste, hack, repeat",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
   },
   {
     name: "Mytheclipse",
-    bio: "Copy, paste, hack, repeat",
+    bio: "Malas",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
   }
