@@ -19,10 +19,11 @@ export const members: Member[] = [
   },
   {
     name: "PWarwq",
-    bio: "Securing the net, one packet at a time",
-    github: "https://github.com",
-    personal_website: "https://example.com",
-    avatar_url: "https://github.com/nextjs.png"
+    bio: "Capek idup, i want decrypt my life",
+    github: "https://github.com/PWarwq",
+    personal_website: "https://youtu.be/dVTI6fwgZC0?si=ObRQRGERxHiVQROD",
+    avatar_url: "pwarwq.png",
+    contact: "qwarPW@imrnes.team"
   },
   {
     name: "Suryami62",
