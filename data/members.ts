@@ -47,6 +47,7 @@ export const members: Member[] = [
     name: "Yuza",
     bio: "When yah...",
     github: "https://github.com/mybday123",
+    avatar_url: "yuja.png",
   },
   {
     name: "Fd",
