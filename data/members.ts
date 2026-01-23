@@ -8,7 +8,7 @@ export const members: Member[] = [
     personal_website: "https://aryma.imrnes.team",
     contact: "aryma@imrnes.team",
     optional_contact: "Discord: Worldsavior",
-    avatar_url: "aryma.gif" 
+    avatar_url: "aryma.gif",
   },
   {
     name: "SeekerZ0",
@@ -23,7 +23,7 @@ export const members: Member[] = [
     github: "https://github.com/PWarwq",
     personal_website: "https://youtu.be/dVTI6fwgZC0?si=ObRQRGERxHiVQROD",
     avatar_url: "pwarwq.png",
-    contact: "qwarPW@imrnes.team"
+    contact: "qwarPW@imrnes.team",
   },
   {
     name: "Suryami62",
@@ -48,9 +48,9 @@ export const members: Member[] = [
   },
   {
     name: "Yuza",
-    bio: "Kapan CTFnya",
-    github: "https://github.com",
-    personal_website: "https://localhost:3000",
+    bio: "When yah...",
+    github: "https://github.com/mybday123",
+    avatar_url: "yuja.png",
   },
   {
     name: "Fd",
@@ -64,13 +64,12 @@ export const members: Member[] = [
     github: "https://github.com/ulelll",
     contact: "aurellbukan@pengagguran.team",
     optional_contact: "Fesnuk: Awrell Cujo",
-    avatar_url: "miooo.gif"
+    avatar_url: "miooo.gif",
   },
   {
     name: "Mytheclipse",
     bio: "Malas",
     github: "https://github.com",
     personal_website: "https://localhost:3000",
-  }
-  
+  },
 ];
