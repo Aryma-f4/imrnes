@@ -11,11 +11,11 @@ export const members: Member[] = [
     avatar_url: "aryma.gif",
   },
   {
-    name: "SeekerZ0",
-    bio: "To be filled",
-    github: "https://github.com",
-    contact: "ninja@example.com",
-    optional_contact: "@cyberninja",
+    name: "ROPShade",
+    bio: "Masih pemula om :>",
+    github: "https://github.com/ROPShade",
+    contact: "ropshade@imrnes.team",
+    optional_contact: "@ropshade",
   },
   {
     name: "PWarwq",
