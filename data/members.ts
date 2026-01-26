@@ -4,7 +4,7 @@ export const members: Member[] = [
   {
     name: "Aryma",
     bio: "sCmxMdZ/vRqjAToDmLMw+sv55IkG5/CeDf0DaW27DU5s49ZtyninNpmDlMtskoru",
-    github: "https://github.com/Aryma-f4",
+    github: "https://git.imrnes.team/aryma",
     personal_website: "https://aryma.imrnes.team",
     contact: "aryma@imrnes.team",
     optional_contact: "Discord: Worldsavior",
