@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Press_Start_2P, Share_Tech_Mono } from "next/font/google";
 import "./globals.css";
+import TopBar from "@/components/TopBar";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -27,8 +29,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${shareTechMono.className} ${pressStart2P.variable} antialiased bg-brand-dark text-brand-light selection:bg-brand-green selection:text-brand-dark`}
+        className={`${shareTechMono.className} ${pressStart2P.variable} antialiased bg-brand-dark text-brand-light selection:bg-brand-green selection:text-brand-dark pt-16`}
       >
+        <TopBar />
         {children}
       </body>
     </html>
