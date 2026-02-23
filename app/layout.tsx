@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Press_Start_2P, Share_Tech_Mono } from "next/font/google";
 import "./globals.css";
 import TopBar from "@/components/TopBar";
+import { Analytics } from "@vercel/analytics/next";
 
 const pressStart2P = Press_Start_2P({
   weight: "400",
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <TopBar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
