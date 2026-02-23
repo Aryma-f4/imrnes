@@ -34,6 +34,17 @@ export default function TopBar() {
                         <Trophy className={`w-5 h-5 ${isActive("/achievement") ? "animate-pulse" : "group-hover:animate-pulse"}`} />
                         <span className="font-press-start text-xs md:text-sm tracking-wide">Achievements</span>
                     </Link>
+
+                    <Link
+                        href="/leaderboard"
+                        className={`flex items-center space-x-2 transition-colors duration-300 group ${isActive("/leaderboard")
+                            ? "text-brand-green drop-shadow-[0_0_5px_rgba(50,205,50,0.5)]"
+                            : "text-brand-light/80 hover:text-brand-green"
+                            }`}
+                    >
+                        <Trophy className={`w-5 h-5 ${isActive("/leaderboard") ? "animate-pulse" : "group-hover:animate-pulse"}`} />
+                        <span className="font-press-start text-xs md:text-sm tracking-wide">Leaderboard</span>
+                    </Link>
                 </div>
             </div>
         </nav>
