@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Trophy, Home } from "lucide-react";
+import { Shield, Trophy, Home } from "lucide-react";
 
 export default function TopBar() {
     const pathname = usePathname();
@@ -44,6 +44,17 @@ export default function TopBar() {
                     >
                         <Trophy className={`w-5 h-5 ${isActive("/leaderboard") ? "animate-pulse" : "group-hover:animate-pulse"}`} />
                         <span className="font-press-start text-xs md:text-sm tracking-wide">Leaderboard</span>
+                    </Link>
+
+                    <Link
+                        href="/cve"
+                        className={`flex items-center space-x-2 transition-colors duration-300 group ${isActive("/cve")
+                            ? "text-brand-green drop-shadow-[0_0_5px_rgba(50,205,50,0.5)]"
+                            : "text-brand-light/80 hover:text-brand-green"
+                            }`}
+                    >
+                        <Shield className={`w-5 h-5 ${isActive("/cve") ? "animate-pulse" : "group-hover:animate-pulse"}`} />
+                        <span className="font-press-start text-xs md:text-sm tracking-wide">CVE Discovered</span>
                     </Link>
                 </div>
             </div>
