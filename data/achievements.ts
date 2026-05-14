@@ -21,4 +21,11 @@ export const achievements: Achievement[] = [
         date: "10 May 2026",
         roster: [ "ROPshade"],
     },
+      {
+        id: "cyber-breaker-2026",
+        title: "Cyber Breaker 2026 - Top 2 Kalimantan Region",
+        rank: "2nd Place",
+        date: "9 May 2026",
+        roster: [ "ROPshade", "qwra/Pwarwq"],
+    },
 ];
