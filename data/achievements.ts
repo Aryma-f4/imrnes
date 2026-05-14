@@ -14,4 +14,11 @@ export const achievements: Achievement[] = [
         date: "1 February 2026",
         roster: ["Worldsavior/Aryma", "Mytheclipse", "qwra/Pwarwq", "ROPshade"],
     },
+  {
+        id: "icoa-indonesia-qualifier-2026",
+        title: "ICOA Sydney Australia Indonesia Qualifier 2026",
+        rank: "1st Place Winner",
+        date: "10 May 2026",
+        roster: [ "ROPshade"],
+    },
 ];
