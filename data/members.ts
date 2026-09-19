@@ -38,6 +38,13 @@ github: "https://github.com/thatITfox",
     personal_website: "https://maxthecomputerfox.online/",
     avatar_url : "https://avatars.githubusercontent.com/u/78403482?v=4"
   },
+{
+    name : "Koori"
+    ,bio: "none",
+github: "",
+    personal_website: "",
+    avatar_url : ""
+  },
   {
     name: "Mytheclipse",
     bio: "Malas",
