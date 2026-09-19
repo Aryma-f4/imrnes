@@ -26,50 +26,28 @@ export const members: Member[] = [
     contact: "qwarPW@imrnes.team",
   },
   {
-    name: "Suryami62",
-    bio: "sudo rm -rf / is my favorite command",
-    github: "https://github.com",
-    optional_contact: "Twitter: @sudo",
-  },
-  {
-    name: "nullptr",
-    bio: "It's not a bug, it's a feature",
-    github: "https://github.com",
-    contact: "bug@hunter.com",
-  },
-  {
-    name: "Yiksi",
-    bio: "CicakUngu, not Cicak Ungu",
-    github: "https://github.com/euxzy",
-    personal_website: "https://euxzy.dev",
-    contact: "yiksi@pengangguran.team",
-    optional_contact: "Discord: euxzy",
-    avatar_url: "yiksi.gif"
-  },
-  {
     name: "Yuza",
     bio: "When yah...",
     github: "https://github.com/mybday123",
     avatar_url: "yuja.png",
   },
   {
-    name: "Fd",
-    bio: "Kamu pake bruwstap ya?",
-    github: "https://github.com",
-    personal_website: "https://localhost:3000",
-  },
-  {
-    name: "Rerruu",
-    bio: "ITS Trimoen aku 😭",
-    github: "https://github.com/ulelll",
-    contact: "aurellbukan@pengagguran.team",
-    optional_contact: "Fesnuk: Awrell Cujo",
-    avatar_url: "miooo.gif",
+    name : "Max The Computer Fox"
+    ,bio: "your friendly neighborhood cyber security fox  🦊 @maxthecomputerfox@furry.engineer  also, #FreePalestine",
+github: "https://github.com/thatITfox",
+    personal_website: "https://maxthecomputerfox.online/",
+    avatar_url : "https://avatars.githubusercontent.com/u/78403482?v=4"
   },
   {
     name: "Mytheclipse",
     bio: "Malas",
-    github: "https://github.com",
+    github: "https://github.com/asepharyana",
+    personal_website: "https://localhost:3000",
+  },
+{
+    name: "banj1",
+    bio: "Masukkan bio",
+    github: "https://github.com/panjigtg",
     personal_website: "https://localhost:3000",
   },
 ];

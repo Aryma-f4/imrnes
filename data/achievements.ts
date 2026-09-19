@@ -20,6 +20,12 @@ export const achievements: Achievement[] = [
         rank: "1st Place Winner",
         date: "10 May 2026",
         roster: [ "ROPshade"],
+    },  {
+        id: "icoa-international-final-2026",
+        title: "ICOA Sydney Australia 2026",
+        rank: "3rd Place Winner",
+        date: "2 July 2026",
+        roster: [ "ROPshade"],
     },
       {
         id: "cyber-breaker-2026",
@@ -27,5 +33,21 @@ export const achievements: Achievement[] = [
         rank: "2nd Place",
         date: "9 May 2026",
         roster: [ "ROPshade", "qwra/Pwarwq"],
+    }, 
+  {
+        id: "BeeCTF-2026-finalist-1",
+        title: "BeeCTF-2026 Finalist",
+        rank: "Finalist BeeCTF 2026",
+        date: "9 September 2026",
+        roster: [ "qwra/Pwarwq"],
     },
+ 
+
+  {
+        id: "BeeCTF 2026",
+        title: "BeeCTF 2026 - 1st Place",
+        rank: "1st Place",
+        date: "9 September 2026",
+        roster: [ "ROPshade"] 
+    }
 ];
