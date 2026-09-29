@@ -43,7 +43,8 @@ github: "https://github.com/thatITfox",
     bio: "Gak bisa CTF",
     github: "https://github.com/nuirarei",
     personal_website: "",
-    avatar_url : "https://avatars.githubusercontent.com/u/287282621?v=4"
+    avatar_url : "https://avatars.githubusercontent.com/u/287282621?v=4",
+    contact : "shirai15@proton.me"
   },
   {
     name: "Mytheclipse",
