@@ -39,11 +39,11 @@ github: "https://github.com/thatITfox",
     avatar_url : "https://avatars.githubusercontent.com/u/78403482?v=4"
   },
 {
-    name : "Koori"
-    ,bio: "none",
-github: "",
+    name : "Nuirarei",
+    bio: "Gak bisa CTF",
+    github: "https://github.com/nuirarei",
     personal_website: "",
-    avatar_url : ""
+    avatar_url : "https://avatars.githubusercontent.com/u/287282621?v=4"
   },
   {
     name: "Mytheclipse",
