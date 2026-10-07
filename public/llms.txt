@@ -1,0 +1,23 @@
+# IMRNES
+
+> Ingin Menjadi Root — cyber security community member list. CTF achievements, CVE
+> discoveries, and the CTFtime leaderboard standing for Indonesia.
+
+## Pages
+
+- [Members](https://imrnes.team/): community member list with profiles and contacts.
+- [Achievements](https://imrnes.team/achievement): CTF achievements and the roster behind each
+  win, by IMRNES team members.
+- [CVE Discovered](https://imrnes.team/cve): CVE entries discovered by IMRNES team members,
+  sourced from the IMRNES zero-day list.
+- [Leaderboard](https://imrnes.team/leaderboard): IMRNES standing on the CTFtime leaderboard for
+  Indonesia, with the top teams around.
+
+## Optional
+
+- [Forum](https://forum.imrnes.team): community forum.
+
+## Notes
+
+- CVE data is fetched from a remote markdown source and revalidated hourly.
+- Leaderboard data comes from the CTFtime API, revalidated hourly.

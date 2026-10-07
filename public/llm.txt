@@ -1,0 +1,5 @@
+# Not the standard filename
+
+The community convention is `llms.txt` (plural). This file just points there:
+
+- Canonical: https://imrnes.team/llms.txt
