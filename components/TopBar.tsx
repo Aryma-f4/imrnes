@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Shield, Trophy, Home } from "lucide-react";
+import { Shield, Trophy, Home, MessagesSquare } from "lucide-react";
 
 export default function TopBar() {
     const pathname = usePathname();
@@ -56,6 +56,16 @@ export default function TopBar() {
                         <Shield className={`w-5 h-5 ${isActive("/cve") ? "animate-pulse" : "group-hover:animate-pulse"}`} />
                         <span className="font-press-start text-xs md:text-sm tracking-wide">CVE Discovered</span>
                     </Link>
+
+                    <a
+                        href="https://forum.imrnes.team"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-2 px-3 py-2 border border-brand-green/50 rounded bg-brand-green/10 text-brand-green hover:bg-brand-green hover:text-brand-dark transition-colors duration-300"
+                    >
+                        <MessagesSquare className="w-4 h-4 animate-pulse" />
+                        <span className="font-press-start text-xs md:text-sm tracking-wide">Forum</span>
+                    </a>
                 </div>
             </div>
         </nav>

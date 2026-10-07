@@ -1,6 +1,13 @@
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Leaderboard",
+  description:
+    "IMRNES standing on the CTFtime leaderboard for Indonesia, plus the top teams around.",
+  alternates: { canonical: "/leaderboard" },
+};
+
 type TopTeam = {
   team_id: number;
   team_name: string;

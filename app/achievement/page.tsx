@@ -2,6 +2,13 @@ import { Trophy } from "lucide-react";
 import Footer from "@/components/Footer";
 import { achievements } from "@/data/achievements";
 
+export const metadata = {
+    title: "Achievements",
+    description:
+        "CTF achievements earned by IMRNES team members, with the full roster of each win.",
+    alternates: { canonical: "/achievement" },
+};
+
 export default function Achievement() {
     return (
         <div className="min-h-screen flex flex-col items-center p-4 sm:p-8 font-share-tech bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-purple-dark/20 via-brand-dark to-brand-dark">
@@ -12,6 +19,9 @@ export default function Achievement() {
                         ACHIEVEMENTS
                     </h1>
                     <div className="h-1 w-24 bg-brand-green mx-auto rounded-full"></div>
+                    <p className="text-brand-light/80">
+                        This list of achievement are affiliate of IMRNES team member.
+                    </p>
                 </section>
 
                 <section className="w-full px-4 text-brand-light space-y-6">

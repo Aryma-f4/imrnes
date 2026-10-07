@@ -1,6 +1,13 @@
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
+export const metadata = {
+  title: "CVE Discovered",
+  description:
+    "CVE entries discovered by IMRNES team members, sourced from the IMRNES zero-day list.",
+  alternates: { canonical: "/cve" },
+};
+
 type CveEntry = {
   cve: string;
   ghsa?: string;
@@ -109,7 +116,7 @@ export default async function CvePage() {
           </h1>
           <div className="h-1 w-24 bg-brand-green mx-auto rounded-full"></div>
           <p className="text-brand-light/80">
-            Latest CVEs collected from the IMRNES zero-day list.
+            This list of CVE are affiliate of IMRNES team member.
           </p>
         </section>
 
